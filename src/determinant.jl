@@ -14,6 +14,21 @@ function det_bruteforce(A::Matrix)
     end
 end
 
+"""
+    landau_determinant(m1², m2², m3², M1², M2², M3²)
+
+Compute the Landau determinant for a scalar triangle loop function.
+The expression is given by `det [ki kj]`
+
+Notaions:
+```text
+              o --- M₂
+          m₁ / \\
+            /   \\ m₃
+    M₃ --- o --- o --- M₁
+              m₂
+```
+"""
 function landau_determinant(m1², m2², m3², M1², M2², M3²)
 	k1sq = m1²
 	k2sq = m2²
