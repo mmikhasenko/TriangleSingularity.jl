@@ -13,11 +13,11 @@ const mKst² = mKst^2
 @testset "Basic chech" begin
     ma1² = 1.42^2
     #
-    M3², M2², M1² = ma1², mKst², mQ²
+    M3², M2², M1² = ma1², mKst², mπ²
     m2², m3² = mπ², mπ²
     m1² = mK²
     #
-    @test triangleloop(m1², m2², m3², M1²-iϵ, M2², M3²) isa Complex{Float64}
+    @test triangleloop(m1², m2², m3², M1², M2², M3²) isa Complex{Float64}
 end
 
 @testset "Position of TS" begin

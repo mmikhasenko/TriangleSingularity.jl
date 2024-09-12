@@ -26,7 +26,7 @@ function triangleloop(m1², m2², m3², M1², M2², M3²)
     return integr/(16*π^2);
 end
 
-const iϵ = 1e-10
+const iϵ = 1e-10im
 
 triangleloop(m1²::Real, m2²::Real, m3²::Real, M1²::Real, M2²::Real, M3²::Real) =
     triangleloop(m1²-iϵ, m2², m3², M1², M2², M3²)
