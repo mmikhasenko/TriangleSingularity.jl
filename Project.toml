@@ -1,7 +1,7 @@
 name = "TriangleSingularity"
 uuid = "806edd40-9488-453b-b3e3-cb1e12902d3c"
 authors = ["Misha Mikhasenko <mikhail.mikhasenko@gmail.com>"]
-version = "0.1.0"
+version = "0.2.0"
 
 [deps]
 Polynomials = "f27b6e38-b328-58d1-80ce-0feddd5e7a45"
@@ -10,4 +10,5 @@ QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
 [compat]
 Polynomials = "4"
 QuadGK = "2.0"
-julia = "1.6"
+Polynomials = "4.0"
+julia = "1.7"

@@ -1,5 +1,5 @@
 """
-    Isc(m1², m2², m3², M1², M2², M3²)
+    triangleloop(m1², m2², m3², M1², M2², M3²)
 
 
 Computed amplitude of a scalar triangle loop function.
