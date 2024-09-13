@@ -11,13 +11,23 @@
 [![DOI](https://zenodo.org/badge/DOI/FIXME)](https://doi.org/FIXME)
 
 
-A simple package that calculates triangle look using the Feynmam approach,
+A simple package that calculates triangle loop using the Feynman approach,
 reduced to a single integral.
 
 
 ![](pict/triangle.png)
+
+## Evaluation of amplitude
+
 ```julia
 triangleloop(m1², m2², m3², M1², M2², M3²)
 ```
 
+## Position of singularities
+
+```julia
+M3² = Polynomial([0im, 1.0])
+P = landau_determinant(m1², m2², m3², M1², M2², M3²)
+roots(P)
+```
 
