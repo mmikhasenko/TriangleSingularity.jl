@@ -8,5 +8,6 @@ Polynomials = "f27b6e38-b328-58d1-80ce-0feddd5e7a45"
 QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
 
 [compat]
+Polynomials = "4"
 QuadGK = "2.0"
 julia = "1.6"
