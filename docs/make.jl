@@ -14,7 +14,9 @@ makedocs(;
     authors = "Misha Mikhasenko <mikhail.mikhasenko@gmail.com>",
     repo = "https://github.com/mmikhasenko/TriangleSingularity.jl/blob/{commit}{path}#{line}",
     sitename = "TriangleSingularity.jl",
-    format = Documenter.HTML(; canonical = "https://mmikhasenko.github.io/TriangleSingularity.jl"),
+    format = Documenter.HTML(;
+        canonical = "https://mmikhasenko.github.io/TriangleSingularity.jl",
+        repolink = "https://github.com/mmikhasenko/TriangleSingularity.jl"),
     pages = ["index.md"; numbered_pages],
 )
 
