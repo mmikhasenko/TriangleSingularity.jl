@@ -9,4 +9,4 @@ PackageName: TriangleSingularity
 PackageOwner: mmikhasenko
 PackageUUID: 806edd40-9488-453b-b3e3-cb1e12902d3c
 _commit: v0.10.1
-_src_path: https://github.com/abelsiqueira/BestieTemplate.jl
+_src_path: https://github.com/JuliaBesties/BestieTemplate.jl
